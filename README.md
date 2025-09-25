@@ -69,7 +69,7 @@ Elle doit retourner la borne valide.
 ### Affichage
 Voici le dialogue attendu entre l'utilisateur et le code :
 
-<img src="input.png" width="400"/>
+<img src="input.png"  style="border: 2px solid black; border-radius: 8px;" width="400"/>
 
 ## Partie 2 : Nombres parfaits (10 points)
 
@@ -86,15 +86,16 @@ Un nombre parfait est un nombre qui est égale à la somme de ses diviseurs. Voi
 
 ### Fonctions à générer
 - `somme_diviseurs(...)`: prends en paramètre un nombre et retourne la somme de ses diviseurs.
-- `est_parfait(...)`: prend en paramètre un nombre et retourne vrai si le nombre est parfait, retoune faux dans le cas contraire.
+- `est_parfait(...)`: prend en paramètre un nombre et retourne vrai si le nombre est parfait, retourne faux dans le cas contraire.
 - `afficher_nombres_parfaits(...)`: prend en paramètre un intervalle et affiche tous les nombres parfaits compris dans cet intervalle inclusivement.
 Elle doit faire appel à est_parfait pour vérifier si un nombre est parfait.
+- Le code pour afficher 🔢 est \U0001F522
 
 ### Affichage
 
-Voici le résultat attendu lors de l'appel de `afficher_nombres_parfaits` :
+Voici le résultat attendu lors de l'appel de `afficher_nombres_parfaits` pour les bornes 1 à 1500 :
 
-
+<img src="parfait.png"  style="border: 2px solid black; border-radius: 8px;" width="400"/>
 
 ## Partie 3 : Couples amicaux (10 points)
 
@@ -114,9 +115,10 @@ la somme des diviseurs de **284** (1 + 2 + 4 + 71 + 142) est égale à **220**.
 - `sont_amicaux(...)`: prend en paramètre deux nombres et retourne vrai s'ils forment un couple amical. Sinon, elle retourne faux.
 - `afficher_couples_amicaux(...)`: prend en paramètre un intervalle et affiche tous les couples amicaux compris dans cet intervalle inclusivement.
 Elle doit faire appel à sont_amicaux pour vérifier si deux nombres forment un couple amical.
-
+- Le code pour afficher 🔗 est \U0001F522
 
 ### Affichage
 
-Voici le résultat attendu lors de l'appel de `afficher_couples_amicaux` :
+Voici le résultat attendu lors de l'appel de `afficher_couples_amicaux` pour les bornes 1 à 1500 :
 
+<img src="couples.png"  style="border: 2px solid black; border-radius: 8px;" width="400"/>
